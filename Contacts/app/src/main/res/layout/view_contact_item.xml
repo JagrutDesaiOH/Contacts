@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/view_padding_16dp"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/view_padding_8dp"
+        android:orientation="horizontal">
+
+        <android.support.v7.widget.AppCompatImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/ic_person_black_24dp"
+            android:tint="@color/colorPrimary" />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/contact_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/view_padding_16dp"
+            android:layout_marginStart="@dimen/view_padding_16dp"
+            android:textSize="@dimen/view_text_size_21sp"
+            tools:text="Jagrut, Desai" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/view_padding_8dp"
+        android:orientation="horizontal">
+
+        <android.support.v7.widget.AppCompatImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/ic_phone_black_24dp"
+            android:tint="@color/colorPrimary" />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/contact_phone_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/view_padding_16dp"
+            android:layout_marginStart="@dimen/view_padding_16dp"
+            android:textSize="@dimen/view_text_size_14sp"
+            tools:text="408 726 5925" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/view_padding_8dp"
+        android:orientation="horizontal">
+
+        <android.support.v7.widget.AppCompatImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/ic_location_on_black_24dp"
+            android:tint="@color/colorPrimary" />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/contact_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/view_padding_16dp"
+            android:layout_marginStart="@dimen/view_padding_16dp"
+            android:textSize="@dimen/view_text_size_14sp"
+            tools:text="151 Calderon Ave, Mountain View, CA, 94041" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/view_padding_8dp"
+        android:orientation="horizontal">
+
+        <android.support.v7.widget.AppCompatImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/ic_email_black_24dp"
+            android:tint="@color/colorPrimary" />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/contact_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/view_padding_16dp"
+            android:layout_marginStart="@dimen/view_padding_16dp"
+            android:textSize="@dimen/view_text_size_14sp"
+            tools:text="desai.jagrut95035@gmail.com" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <android.support.v7.widget.AppCompatImageButton
+            android:id="@+id/contact_delete"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:layout_weight=".5"
+            android:background="@color/colorPrimary"
+            android:padding="@dimen/view_padding_8dp"
+            android:src="@drawable/ic_delete_black_24dp"
+            android:tint="@android:color/white" />
+
+        <android.support.v7.widget.AppCompatImageButton
+            android:id="@+id/contact_edit"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:layout_weight=".5"
+            android:background="@color/colorPrimary"
+            android:padding="@dimen/view_padding_8dp"
+            android:src="@drawable/ic_edit_black_24dp"
+            android:tint="@android:color/white" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="view_padding_16dp">16dp</dimen>
+    <dimen name="view_padding_8dp">8dp</dimen>
+    <dimen name="view_text_size_21sp">21sp</dimen>
+    <dimen name="view_text_size_14sp">14sp</dimen>
+</resources>

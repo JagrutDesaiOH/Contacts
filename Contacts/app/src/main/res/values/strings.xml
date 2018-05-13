@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Contacts</string>
+    <string name="add_contact">Add Contact</string>
+    <string name="add_contacts">Add Contacts</string>
+    <string name="first_name">First name</string>
+    <string name="last_name">Last name</string>
+    <string name="phone_number_text">(111)-111-1111</string>
+    <string name="email_hint_text">person@example.com</string>
+    <string name="address_hint_text">9 Android Rd, Google City, Alphabets, 11111</string>
+    <string name="save_contact">Save Contact</string>
+</resources>
