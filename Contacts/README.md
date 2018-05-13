@@ -23,3 +23,5 @@ This app allows users to enter contacts information and save them on device usin
       * Local
       * Remote(Note: There are none for this first pass)
       
+  ## Screenshot    
+![ScreenShot](https://github.com/JagrutDesaiOH/Contacts/blob/master/Screenshot_1526239021.png)
